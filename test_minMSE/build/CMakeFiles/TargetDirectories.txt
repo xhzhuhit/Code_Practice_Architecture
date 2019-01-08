@@ -1,3 +1,0 @@
-/home/zhuxiaohui/test_minMSE/build/CMakeFiles/edit_cache.dir
-/home/zhuxiaohui/test_minMSE/build/CMakeFiles/rebuild_cache.dir
-/home/zhuxiaohui/test_minMSE/build/CMakeFiles/test_minmse.dir
