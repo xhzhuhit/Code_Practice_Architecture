@@ -7,9 +7,14 @@
 class GlobalConfig {
 public:
     static GlobalConfig* getInstance();
+    static void deleteInstance();
     bool say_hello();
 private:
     GlobalConfig();
+    ~GlobalConfig();
+    
+    GlobalConfig(const GlobalConfig &config);
+    const GlobalConfig &operator=(const GlobalConfig &config);
 
 private:
     static GlobalConfig* _s_instance;
